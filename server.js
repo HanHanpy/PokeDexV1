@@ -41,4 +41,4 @@ var pokemon = require('./db/pokemon');
  }
 });
 
-client.login("NzcyMTM4NTIwNTU5MDkxNzYy.X52UCA.AD-7H_cIeDOfw_IFgQidtBISe10")
+client.login(process.env.TOKEN)
